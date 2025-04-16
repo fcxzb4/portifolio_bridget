@@ -1,20 +1,4 @@
-body{ 
-    width:100ve;
-    background-color:cyan;
-    padding:0;
-    margin:0;     
-}
-div{
-
-    width:50vH;
-    height:50vh;
-    background-color: red;
-    
-}
-div div{  
-    width:10vH ;
-    height:10vH;
-    background-color:purple;
-    margin:0;
-    padding:0;
+body{
+    display: grid;
+grid-template-columns: ;
 }
