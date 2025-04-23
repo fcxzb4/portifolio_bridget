@@ -1,0 +1,13 @@
+@import url(./header.css);
+
+body{
+    width: 100%;
+    height:100%;
+
+    background-color:var(--beige);
+}
+:root{
+    --beige:#f5f5dc;
+    --black:#000000;
+    --dimgrey:#778899;
+}
