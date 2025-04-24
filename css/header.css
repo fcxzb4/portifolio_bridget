@@ -53,11 +53,13 @@ header {
 }
 
 .btn_header {
-    background-color: var(--blackS);
+    background-color:var(--dimgrey);
 
     font-size: 2vh;
 
     cursor: pointer;
 
     border-radius: 12px;
+
+    font-family: var(--fontP);
 }
