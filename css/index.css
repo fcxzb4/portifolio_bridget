@@ -1,5 +1,6 @@
 @import url(./header.css);
 @import url(./vars.css);
+@import url(./main.css);
 
 body{
     width: 100vw;

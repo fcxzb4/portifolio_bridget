@@ -28,6 +28,8 @@ header {
     justify-content:flex-start;
 
     background-color: var(--dimgrey);
+
+    border-radius: 100px;
 }
 .user{
     width:100%;
@@ -56,4 +58,6 @@ header {
     font-size: 2vh;
 
     cursor: pointer;
+
+    border-radius: 12px;
 }
