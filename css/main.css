@@ -49,6 +49,12 @@ main {
   justify-content: flex-start;
 }
 
+#vitoria_secret {
+  color: #adab37f8;
+
+  text-decoration: none;
+}
+
 #sub_text p {
   font-size: 3vh;
   font-family: var(--fontS);
@@ -58,5 +64,51 @@ main {
   align-items: center;
   justify-content: center;
 
-  color:var(--light_blue);
+  color: var(--light_blue);
+}
+
+/*adpting screen width*/
+@media(max-width:820px) {
+  #content_box {
+    gap: 25px;
+
+    flex-direction: column-reverse;
+  }
+
+  #video_try iframe {
+    width: 24vh;
+    height: 20vh;
+  }
+
+  #text_box {
+    font-size: 1vh;
+
+    flex-direction: column;
+
+    gap: 40px;
+
+    padding: 0 10% 0 10%;
+  }
+
+  #first_name {
+    font-size: 3.5vh;
+
+    color: black;
+  }
+
+  #vitoria_secret {
+    color: #adab37f8;
+
+    text-decoration: none;
+  }
+
+  #sub_text p {
+    font-size: 2.9vh;
+  }
+}
+
+@media(max-width:480px) {
+  main {
+    height: 83%;
+  }
 }
