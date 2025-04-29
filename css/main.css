@@ -124,12 +124,11 @@ main {
   main {
     height: 83%;
   }
-
+  
+  #video_try iframe{
+    border-radius:0;
+  }
+}
   #first_name {
     height: 20%;
   }
-
-  #video_try{
-    border-radius: none;
-  }
-}
