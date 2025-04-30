@@ -1,0 +1,22 @@
+#square_enix{
+    position: absolute;
+
+    top: 70vh;
+    left:90vw;
+
+    z-index: -2;
+    background-color: aliceblue;
+    
+}
+#img_triforce{
+    width: 20vh;
+    height: auto;
+
+    background-image: url(./../img/van_gogh.png);
+}
+
+@keyframes waisting_arround{
+    0%{
+
+    }
+}

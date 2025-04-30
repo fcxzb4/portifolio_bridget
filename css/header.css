@@ -21,8 +21,26 @@ header {
 
     font-family: var(--fontP);
 
+    padding: 0;
+    margin: 0;
+
+    cursor: pointer;
+
+    border:none;
+
     color: var(--light_blue);
 }
+
+
+.steezus {
+    transform: rotate(-15deg);
+    animation: up-down6123 3s ease-in-out 1s infinite alternate;
+
+    padding:0%;
+    margin:0%;
+
+   
+  }
 
 #btn_user {
     width: 15vh;
@@ -34,8 +52,7 @@ header {
     justify-content: flex-start;
 
     border-radius: 100px;
-    border-color: #176cecbd;
-    border-width: 0.4vh;
+    border:none;
 
     background-image: url(./../img/keanu\ kitty.jpg);
     background-position: center 25vh;
@@ -44,6 +61,46 @@ header {
 
     padding: 0%;
     margin: 0%;
+
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn_user:hover {
+    box-shadow: 0 0 25px var(--yellow), 0 0 30px var(--yellow);
+
+    animation: 5000ms linear spin infinite;
+    transform: scale(1.69);
+}
+@keyframes up-down6123 {
+    from {
+      transform: rotate(-15deg);
+    }
+  
+    to {
+      transform: rotate(15deg);
+    }
+  }
+@keyframes spin {
+    0%{
+        transform:rotate(0deg);
+    } 
+   
+    35% {
+        transform: rotate(126deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75% {
+        transform:rotate(252deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .user {
@@ -52,7 +109,6 @@ header {
 
     cursor: pointer;
 
-    font-size: 13vh;
 }
 
 #btns_header {
@@ -308,14 +364,14 @@ header {
     }
 
     #btns_header {
-       width:50%;
+        width: 50%;
 
     }
 
     .button {
         width: 20.2%;
-        height:6.1vh;
+        height: 6.1vh;
 
-        font-size:1.4vh;
+        font-size: 1.4vh;
     }
 }
