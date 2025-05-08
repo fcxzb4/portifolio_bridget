@@ -1,0 +1,28 @@
+#btn_menu{
+    position: absolute;
+    top: 3vh;
+    left: 95vw;
+
+    width: 5vw;
+    height: 1vh;
+
+    background-color: var(--dimgrey);
+
+    border-radius: 10px;
+    border: none;
+
+    z-index: 1;
+}
+
+#menu_container{
+    position: absolute;
+    top: 0;
+    left: 100vw;
+
+    width: 30vw;
+    height: 100vh;
+
+    background-color: var(--light_blue);
+
+    border-radius: 25px;
+}
