@@ -23,10 +23,21 @@
         <script type="module" src="./project.js"></script>
     </head>
     <body>
-        <header id="header"></header>
-
-
-       <button id="btn_menu"onclick="switchMenu()"></button>
-       <div id="menu_container"></div>
+        <header id="header">
+            <button id="btn_menu" onclick="switchMenu()"></button>
+            <div id="menu_container"></div>
+        </header>
+        <nav id="nav_banner">
+            <div id="banners">
+                <div class="banner"></div>
+                <div class="banner"></div>
+                <div class="banner"></div>
+            </div>
+            <div id="btn_banner">
+                <button class="btn_banner" onclick="switchBanner(1)"></button>
+                <button class="btn_banner" onclick="switchBanner(2)"></button>
+                <button class="btn_banner" onclick="switchBanner(3)"></button>
+            </div>
+        </nav>
     </body>
 </html>

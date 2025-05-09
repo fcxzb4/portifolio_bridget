@@ -1,7 +1,7 @@
 @import url(./header.css);
 @import url(./vars.css);
 @import url(./menu.css);
-
+@import url(./banner.css);
 
 body {
     width: 100vw;
