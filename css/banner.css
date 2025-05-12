@@ -1,27 +1,29 @@
-#nav_banner{
-   width: 100%;
-   height: 40%;
+#nav_banner {
+    width: 100%;
+    height: 40%;
 
-   margin: 2% 0 0;
+    margin: 1em;
 
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
 }
-#banners{
+
+#banners {
     width: 300%;
     height: 40%;
 
     display: flex;
-   flex-direction: row;
+    flex-direction: row;
 
-   position: absolute;
-   left: 0;
+    position: absolute;
+    left: 0;
 
-   transition: all 0.200ms ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
-.banner{
+
+.banner {
     width: 94%;
     height: 100%;
 
@@ -29,20 +31,22 @@
 
     background-color: rgb(47, 245, 245);
 
-    z-index:0;
+    z-index: 0;
 
     background-image: url(./../img/Retrato\ de\ Van\ Gogh\ com\ _DAMN._.png);
     background-position: center 25vw;
 }
-#btn_banner{
+
+#btn_banner {
     z-index: 1;
 }
-.btn_banner{
+
+.btn_banner {
     width: 3vh;
     height: 3vh;
 
     border-radius: 50px;
-    border-color:var(--red);
+    border-color: var(--red);
 
     margin: 0 0.5vw 0.7vw;
 
@@ -50,9 +54,11 @@
 
     z-index: 3;
 }
-.btn_banner:hover{
+
+.btn_banner:hover {
     transform: scale(1.2);
 }
-#btn_banner_1{
+
+#btn_banner_1 {
     transform: scale(1.2);
 }

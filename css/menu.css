@@ -3,16 +3,21 @@
     top: 4vh;
     left: 95vw;
 
-    width: 1.5vw;
-    height: 1.5vh;
+    width: 3vh;
+    height: 3vh;
 
-    background-color: var(--dimgrey);
+    background-color:var(--yellow);
 
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
 
     padding: 0%;
     margin: 0;
+
+    cursor: pointer;
+}
+#btn_menu:hover{
+    transform: scale(1.4);
 }
 
 #menu_container{

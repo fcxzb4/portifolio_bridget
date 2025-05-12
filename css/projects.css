@@ -2,6 +2,7 @@
 @import url(./vars.css);
 @import url(./menu.css);
 @import url(./banner.css);
+@import url(./cards.css);
 
 body {
     width: 100vw;
