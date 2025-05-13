@@ -1,28 +1,31 @@
-    export function createCards() {
+import { cards_bd } from "./cards_bd.js"
+
+export function createCards() {
     let cards_section = document.getElementById('cards')
 
     /*cria 12 cartaoes*/
 
-    for (let i = 0; i < 12; i++) {
+    for (let i = 0; i < cards_bd.length; i++) {
 
         let div_card = document.createElement('div')
         div_card.className = 'card'
 
         let i_card = document.createElement('i')
-        i_card.className = 'fa-solid fa-thumbs-up'
+        i_card.className = cards_bd[i].i;
 
         let tittle_card = document.createElement('h1')
-        tittle_card.textContent = 'não creio'
+        tittle_card.textContent = cards_bd[i].name;
 
         let subtext_card = document.createElement('h4')
-        subtext_card.textContent = 'tá carrrrro nintendo'
+        subtext_card.textContent = cards_bd[i].language;
 
         div_card.appendChild(i_card)
         div_card.appendChild(tittle_card)
         div_card.appendChild(subtext_card)
 
         cards_section.appendChild(div_card)
-    
-    }};
+
+    }
+};
 
 
