@@ -19,26 +19,21 @@
     height: 14vh;
 
     border-radius: 5px;
-    border-style: dotted;
-    border-color: #f7fa5b86;
     color: white;
-    border-width: 2px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    background-image: url(./../img/Retrato\ de\ Van\ Gogh\ com\ _DAMN._.png);
-
+    background-image: url(./../../../assets/img/pixel_2dad.gif);
+    background-position: center;
     cursor: pointer;
 }
 
 .card:hover {
-    transform:scale(1.2);
+    transform:scale(1.5);
 
     border-radius: 10px;
-    border-color: #f7f7609a;
-    border-style: solid;
     border-width:2px;
 }

@@ -1,5 +1,5 @@
-import { createHeader } from "./header.js";
-import {createCards} from "./cards.js";
+import { createHeader } from "../../view/js/header.js";
+import {createCards} from "../../view/js/cards.js";
 
 import { switchMenu } from "./menu.js";
 import { switchBanner } from "./banner.js";

@@ -49,7 +49,7 @@ header {
     border-radius: 100px;
     border:none;
 
-    background-image: url(./../img/keanu\ kitty.jpg);
+    background-image: url(./../../assets/img/keanu\ kitty.jpg);
     background-position: center 25vh;
 
     cursor: pointer;

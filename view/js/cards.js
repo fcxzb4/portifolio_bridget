@@ -1,4 +1,4 @@
-import { cards_bd } from "./cards_bd.js"
+import { cards_bd } from "../../model/cards_bd.js"
 
 export function createCards() {
     let cards_section = document.getElementById('cards')
@@ -11,6 +11,7 @@ export function createCards() {
         div_card.className = 'card'
 
         let i_card = document.createElement('i')
+        console.log(cards_bd[i].i)
         i_card.className = cards_bd[i].i;
 
         let tittle_card = document.createElement('h1')

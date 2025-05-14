@@ -1,4 +1,4 @@
-import { createHeader } from "./header.js";
+import { createHeader } from "../../view/js/header.js";
 
 document.addEventListener('DOMContentLoaded',()=>{
 createHeader()
