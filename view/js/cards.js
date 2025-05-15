@@ -11,7 +11,6 @@ export function createCards() {
         div_card.className = 'card'
 
         let i_card = document.createElement('i')
-        console.log(cards_bd[i].i)
         i_card.className = cards_bd[i].i;
 
         let tittle_card = document.createElement('h1')

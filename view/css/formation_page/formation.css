@@ -1,0 +1,18 @@
+@import url(./../header.css);
+@import url(./big_cards.css);
+
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(./../../../assets/img/img_bbb.png);
+    background-position:  center;
+    background-attachment: fixed;
+
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+}

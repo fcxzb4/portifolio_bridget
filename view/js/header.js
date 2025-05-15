@@ -54,6 +54,10 @@ export function createHeader() {
     button2.name = "mario_box"
     button2.type = "button"
 
+     button2.addEventListener('click',()=>
+    window.location.href='./formation.html' 
+    )
+
     let span_2_1 = document.createElement('span')
     let span_2_2 = document.createElement('span')
     let span_2_3 = document.createElement('span')
@@ -71,6 +75,9 @@ export function createHeader() {
     let button3 = document.createElement('button')
     button3.name = "mario_box"
     button3.type = "button"
+
+    button3.addEventListener('click',() =>
+    window.location.href='./index.html')
 
     let span_3_1 = document.createElement('span')
     let span_3_2 = document.createElement('span')
