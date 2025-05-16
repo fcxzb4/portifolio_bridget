@@ -8,7 +8,7 @@ export function createCards() {
     for (let i = 0; i < cards_bd.length; i++) {
 
         let div_card = document.createElement('div')
-        div_card.className = 'card'
+        div_card.className = 'cards'
 
         let i_card = document.createElement('i')
         i_card.className = cards_bd[i].i;

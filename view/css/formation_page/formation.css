@@ -8,7 +8,7 @@ body{
     height: 100vh;
 
     background-image: url(./../../../assets/img/img_bbb.png);
-    background-position:  center;
+   background-size: cover;
     background-attachment: fixed;
 
     margin: 0;

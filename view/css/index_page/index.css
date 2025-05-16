@@ -6,13 +6,11 @@
 
 body {
     width: 100vw;
-    height: 100vh;
 
     margin: 0;
     padding: 0;
 
-    background-position: top center;
-
     background-image: url(./../../../assets/img/img_bbb.png);
+    background-repeat: no-repeat;
     background-size:cover;
 }
