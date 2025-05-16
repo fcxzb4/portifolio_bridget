@@ -6,15 +6,14 @@
 
 body {
     width: 100vw;
+    height: 100vh;
 
     margin: 0;
     padding: 0;
 
 
-    /* background-image: url(./../../../assets/img/img_bbb.png); */
+    background-image: url(./../../../assets/img/img_bbb.png);
     background-attachment: fixed;
     background-size:cover;
-
-    background-color: red;
     overflow-x: hidden;
 }
